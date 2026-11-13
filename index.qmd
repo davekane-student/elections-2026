@@ -1,12 +1,16 @@
 ---
-title: "2026 North Carolina U.S. Senate Election"
-subtitle: "November 3, 2026 General Election Results by Precinct"
+title: "2026 Election Results Across the States"
+subtitle: "Interactive Precinct-Level Maps from Key Statewide Races"
 page-layout: full
 execute:
   echo: false
   warning: false
   message: false
 ---
+
+Explore precinct-by-precinct results from the November 3, 2026 general elections across multiple states.
+
+## North Carolina — U.S. Senate
 
 Hover over any precinct to inspect vote totals for **Roy Cooper (DEM)** and **Michael Whatley (REP)**, or use the top-right toggle to switch between **Vote Margin** and **Total Votes Cast**.
 
