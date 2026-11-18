@@ -1,0 +1,8 @@
+{
+    "BaseName":"bdry_votingdistricts",
+    "DescriptiveName":"Voting Districts_Minnesota",
+    "TopicCategories": [
+        "boundaries"
+    ],
+    "Public": true
+}

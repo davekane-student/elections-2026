@@ -1,0 +1,709 @@
+county,office,candidate,party,votes,percent
+,governor,Xavier Becerra,Dem,8320439,65.6
+,governor,Steve Hilton,Rep,4363438,34.4
+,governor,Xavier Becerra,Dem,446421,80.8
+,governor,Steve Hilton,Rep,105850,19.2
+,governor,Xavier Becerra,Dem,371,66.3
+,governor,Steve Hilton,Rep,189,33.8
+,governor,Xavier Becerra,Dem,6852,36.2
+,governor,Steve Hilton,Rep,12090,63.8
+,governor,Xavier Becerra,Dem,36705,50.1
+,governor,Steve Hilton,Rep,36592,49.9
+,governor,Xavier Becerra,Dem,7736,36.3
+,governor,Steve Hilton,Rep,13577,63.7
+,governor,Xavier Becerra,Dem,2594,43.5
+,governor,Steve Hilton,Rep,3364,56.5
+,governor,Xavier Becerra,Dem,306285,71.5
+,governor,Steve Hilton,Rep,122350,28.5
+,governor,Xavier Becerra,Dem,3702,44.9
+,governor,Steve Hilton,Rep,4547,55.1
+,governor,Xavier Becerra,Dem,41336,43.6
+,governor,Steve Hilton,Rep,53408,56.4
+,governor,Xavier Becerra,Dem,125735,55.1
+,governor,Steve Hilton,Rep,102460,44.9
+,governor,Xavier Becerra,Dem,3144,36.2
+,governor,Steve Hilton,Rep,5551,63.8
+,governor,Xavier Becerra,Dem,30506,66.9
+,governor,Steve Hilton,Rep,15069,33.1
+,governor,Xavier Becerra,Dem,24068,65.0
+,governor,Steve Hilton,Rep,12932,35.0
+,governor,Xavier Becerra,Dem,3966,52.8
+,governor,Steve Hilton,Rep,3549,47.2
+,governor,Xavier Becerra,Dem,117675,50.7
+,governor,Steve Hilton,Rep,114500,49.3
+,governor,Xavier Becerra,Dem,16566,47.8
+,governor,Steve Hilton,Rep,18083,52.2
+,governor,Xavier Becerra,Dem,8130,55.6
+,governor,Steve Hilton,Rep,6503,44.4
+,governor,Xavier Becerra,Dem,2086,23.5
+,governor,Steve Hilton,Rep,6803,76.5
+,governor,Xavier Becerra,Dem,2257836,73.3
+,governor,Steve Hilton,Rep,823543,26.7
+,governor,Xavier Becerra,Dem,22979,48.3
+,governor,Steve Hilton,Rep,24600,51.7
+,governor,Xavier Becerra,Dem,88275,79.9
+,governor,Steve Hilton,Rep,22161,20.1
+,governor,Xavier Becerra,Dem,3269,41.3
+,governor,Steve Hilton,Rep,4640,58.7
+,governor,Xavier Becerra,Dem,20060,66.7
+,governor,Steve Hilton,Rep,10020,33.3
+,governor,Xavier Becerra,Dem,41441,58.4
+,governor,Steve Hilton,Rep,29507,41.6
+,governor,Xavier Becerra,Dem,842,26.5
+,governor,Steve Hilton,Rep,2331,73.5
+,governor,Xavier Becerra,Dem,3071,61.4
+,governor,Steve Hilton,Rep,1929,38.6
+,governor,Xavier Becerra,Dem,87731,70.6
+,governor,Steve Hilton,Rep,36512,29.4
+,governor,Xavier Becerra,Dem,31472,69.7
+,governor,Steve Hilton,Rep,13681,30.3
+,governor,Xavier Becerra,Dem,25674,56.9
+,governor,Steve Hilton,Rep,19423,43.1
+,governor,Xavier Becerra,Dem,633955,55.3
+,governor,Steve Hilton,Rep,511845,44.7
+,governor,Xavier Becerra,Dem,75703,47.3
+,governor,Steve Hilton,Rep,84361,52.7
+,governor,Xavier Becerra,Dem,3625,42.6
+,governor,Steve Hilton,Rep,4877,57.4
+,governor,Xavier Becerra,Dem,390385,58.4
+,governor,Steve Hilton,Rep,278471,41.6
+,governor,Xavier Becerra,Dem,326088,65.0
+,governor,Steve Hilton,Rep,175585,35.0
+,governor,Xavier Becerra,Dem,10791,61.9
+,governor,Steve Hilton,Rep,6656,38.1
+,governor,Xavier Becerra,Dem,370096,59.6
+,governor,Steve Hilton,Rep,251312,40.4
+,governor,Xavier Becerra,Dem,751199,62.6
+,governor,Steve Hilton,Rep,448688,37.4
+,governor,Xavier Becerra,Dem,287632,84.7
+,governor,Steve Hilton,Rep,51897,15.3
+,governor,Xavier Becerra,Dem,124487,58.1
+,governor,Steve Hilton,Rep,89937,41.9
+,governor,Xavier Becerra,Dem,59927,56.8
+,governor,Steve Hilton,Rep,45587,43.2
+,governor,Xavier Becerra,Dem,208736,75.6
+,governor,Steve Hilton,Rep,67203,24.4
+,governor,Xavier Becerra,Dem,103185,66.4
+,governor,Steve Hilton,Rep,52116,33.6
+,governor,Xavier Becerra,Dem,437682,71.7
+,governor,Steve Hilton,Rep,172452,28.3
+,governor,Xavier Becerra,Dem,90275,79.1
+,governor,Steve Hilton,Rep,23799,20.9
+,governor,Xavier Becerra,Dem,20038,34.0
+,governor,Steve Hilton,Rep,38840,66.0
+,governor,Xavier Becerra,Dem,578,38.1
+,governor,Steve Hilton,Rep,940,61.9
+,governor,Xavier Becerra,Dem,7220,41.7
+,governor,Steve Hilton,Rep,10090,58.3
+,governor,Xavier Becerra,Dem,102773,65.5
+,governor,Steve Hilton,Rep,54239,34.5
+,governor,Xavier Becerra,Dem,135154,75.3
+,governor,Steve Hilton,Rep,44344,24.7
+,governor,Xavier Becerra,Dem,82466,53.3
+,governor,Steve Hilton,Rep,72278,46.7
+,governor,Xavier Becerra,Dem,12014,43.0
+,governor,Steve Hilton,Rep,15944,57.0
+,governor,Xavier Becerra,Dem,6796,31.8
+,governor,Steve Hilton,Rep,14596,68.2
+,governor,Xavier Becerra,Dem,2217,47.1
+,governor,Steve Hilton,Rep,2489,52.9
+,governor,Xavier Becerra,Dem,58053,50.0
+,governor,Steve Hilton,Rep,58022,50.0
+,governor,Xavier Becerra,Dem,9670,40.7
+,governor,Steve Hilton,Rep,14094,59.3
+,governor,Xavier Becerra,Dem,182728,61.3
+,governor,Steve Hilton,Rep,115182,38.7
+,governor,Xavier Becerra,Dem,50758,72.8
+,governor,Steve Hilton,Rep,18941,27.2
+,governor,Xavier Becerra,Dem,9680,42.9
+,governor,Steve Hilton,Rep,12889,57.1
+,lieutenant-governor,Fiona Ma,Dem,8193694,65.5
+,lieutenant-governor,Gloria Romero,Rep,4313754,34.5
+,lieutenant-governor,Fiona Ma,Dem,444473,81.2
+,lieutenant-governor,Gloria Romero,Rep,102952,18.8
+,lieutenant-governor,Fiona Ma,Dem,357,64.9
+,lieutenant-governor,Gloria Romero,Rep,193,35.1
+,lieutenant-governor,Fiona Ma,Dem,6747,36.1
+,lieutenant-governor,Gloria Romero,Rep,11941,63.9
+,lieutenant-governor,Fiona Ma,Dem,36535,50.3
+,lieutenant-governor,Gloria Romero,Rep,36170,49.7
+,lieutenant-governor,Fiona Ma,Dem,7687,36.4
+,lieutenant-governor,Gloria Romero,Rep,13430,63.6
+,lieutenant-governor,Fiona Ma,Dem,2515,42.7
+,lieutenant-governor,Gloria Romero,Rep,3369,57.3
+,lieutenant-governor,Fiona Ma,Dem,303288,71.7
+,lieutenant-governor,Gloria Romero,Rep,119822,28.3
+,lieutenant-governor,Fiona Ma,Dem,3736,45.4
+,lieutenant-governor,Gloria Romero,Rep,4492,54.6
+,lieutenant-governor,Fiona Ma,Dem,40701,43.5
+,lieutenant-governor,Gloria Romero,Rep,52853,56.5
+,lieutenant-governor,Fiona Ma,Dem,124418,55.0
+,lieutenant-governor,Gloria Romero,Rep,101739,45.0
+,lieutenant-governor,Fiona Ma,Dem,3160,36.7
+,lieutenant-governor,Gloria Romero,Rep,5457,63.3
+,lieutenant-governor,Fiona Ma,Dem,30588,67.5
+,lieutenant-governor,Gloria Romero,Rep,14743,32.5
+,lieutenant-governor,Fiona Ma,Dem,23193,63.3
+,lieutenant-governor,Gloria Romero,Rep,13458,36.7
+,lieutenant-governor,Fiona Ma,Dem,3932,52.8
+,lieutenant-governor,Gloria Romero,Rep,3510,47.2
+,lieutenant-governor,Fiona Ma,Dem,116552,50.5
+,lieutenant-governor,Gloria Romero,Rep,114375,49.5
+,lieutenant-governor,Fiona Ma,Dem,16466,48.0
+,lieutenant-governor,Gloria Romero,Rep,17866,52.0
+,lieutenant-governor,Fiona Ma,Dem,8054,55.7
+,lieutenant-governor,Gloria Romero,Rep,6416,44.3
+,lieutenant-governor,Fiona Ma,Dem,2150,24.4
+,lieutenant-governor,Gloria Romero,Rep,6662,75.6
+,lieutenant-governor,Fiona Ma,Dem,2209482,73.0
+,lieutenant-governor,Gloria Romero,Rep,815517,27.0
+,lieutenant-governor,Fiona Ma,Dem,22812,48.3
+,lieutenant-governor,Gloria Romero,Rep,24422,51.7
+,lieutenant-governor,Fiona Ma,Dem,87785,80.5
+,lieutenant-governor,Gloria Romero,Rep,21276,19.5
+,lieutenant-governor,Fiona Ma,Dem,3283,41.8
+,lieutenant-governor,Gloria Romero,Rep,4575,58.2
+,lieutenant-governor,Fiona Ma,Dem,20022,67.3
+,lieutenant-governor,Gloria Romero,Rep,9736,32.7
+,lieutenant-governor,Fiona Ma,Dem,40581,58.4
+,lieutenant-governor,Gloria Romero,Rep,28943,41.6
+,lieutenant-governor,Fiona Ma,Dem,885,28.9
+,lieutenant-governor,Gloria Romero,Rep,2178,71.1
+,lieutenant-governor,Fiona Ma,Dem,3062,61.7
+,lieutenant-governor,Gloria Romero,Rep,1901,38.3
+,lieutenant-governor,Fiona Ma,Dem,87218,70.8
+,lieutenant-governor,Gloria Romero,Rep,35912,29.2
+,lieutenant-governor,Fiona Ma,Dem,31148,69.7
+,lieutenant-governor,Gloria Romero,Rep,13532,30.3
+,lieutenant-governor,Fiona Ma,Dem,25411,56.8
+,lieutenant-governor,Gloria Romero,Rep,19346,43.2
+,lieutenant-governor,Fiona Ma,Dem,623099,55.2
+,lieutenant-governor,Gloria Romero,Rep,505932,44.8
+,lieutenant-governor,Fiona Ma,Dem,74337,46.9
+,lieutenant-governor,Gloria Romero,Rep,84290,53.1
+,lieutenant-governor,Fiona Ma,Dem,3591,42.6
+,lieutenant-governor,Gloria Romero,Rep,4837,57.4
+,lieutenant-governor,Fiona Ma,Dem,381272,57.9
+,lieutenant-governor,Gloria Romero,Rep,277649,42.1
+,lieutenant-governor,Fiona Ma,Dem,318733,64.7
+,lieutenant-governor,Gloria Romero,Rep,174074,35.3
+,lieutenant-governor,Fiona Ma,Dem,10696,62.0
+,lieutenant-governor,Gloria Romero,Rep,6564,38.0
+,lieutenant-governor,Fiona Ma,Dem,362626,58.9
+,lieutenant-governor,Gloria Romero,Rep,252687,41.1
+,lieutenant-governor,Fiona Ma,Dem,742956,62.5
+,lieutenant-governor,Gloria Romero,Rep,445044,37.5
+,lieutenant-governor,Fiona Ma,Dem,281424,86.1
+,lieutenant-governor,Gloria Romero,Rep,45277,13.9
+,lieutenant-governor,Fiona Ma,Dem,122281,57.7
+,lieutenant-governor,Gloria Romero,Rep,89825,42.3
+,lieutenant-governor,Fiona Ma,Dem,59935,57.2
+,lieutenant-governor,Gloria Romero,Rep,44876,42.8
+,lieutenant-governor,Fiona Ma,Dem,206944,76.3
+,lieutenant-governor,Gloria Romero,Rep,64397,23.7
+,lieutenant-governor,Fiona Ma,Dem,101928,66.4
+,lieutenant-governor,Gloria Romero,Rep,51495,33.6
+,lieutenant-governor,Fiona Ma,Dem,436291,72.3
+,lieutenant-governor,Gloria Romero,Rep,167346,27.7
+,lieutenant-governor,Fiona Ma,Dem,90010,79.5
+,lieutenant-governor,Gloria Romero,Rep,23179,20.5
+,lieutenant-governor,Fiona Ma,Dem,19849,34.0
+,lieutenant-governor,Gloria Romero,Rep,38466,66.0
+,lieutenant-governor,Fiona Ma,Dem,578,38.6
+,lieutenant-governor,Gloria Romero,Rep,921,61.4
+,lieutenant-governor,Fiona Ma,Dem,7293,42.4
+,lieutenant-governor,Gloria Romero,Rep,9900,57.6
+,lieutenant-governor,Fiona Ma,Dem,101809,65.4
+,lieutenant-governor,Gloria Romero,Rep,53947,34.6
+,lieutenant-governor,Fiona Ma,Dem,134436,75.5
+,lieutenant-governor,Gloria Romero,Rep,43574,24.5
+,lieutenant-governor,Fiona Ma,Dem,80804,52.9
+,lieutenant-governor,Gloria Romero,Rep,72022,47.1
+,lieutenant-governor,Fiona Ma,Dem,11878,43.0
+,lieutenant-governor,Gloria Romero,Rep,15751,57.0
+,lieutenant-governor,Fiona Ma,Dem,6815,32.1
+,lieutenant-governor,Gloria Romero,Rep,14430,67.9
+,lieutenant-governor,Fiona Ma,Dem,2236,47.8
+,lieutenant-governor,Gloria Romero,Rep,2444,52.2
+,lieutenant-governor,Fiona Ma,Dem,57273,49.8
+,lieutenant-governor,Gloria Romero,Rep,57712,50.2
+,lieutenant-governor,Fiona Ma,Dem,9566,40.6
+,lieutenant-governor,Gloria Romero,Rep,13974,59.4
+,lieutenant-governor,Fiona Ma,Dem,179488,61.1
+,lieutenant-governor,Gloria Romero,Rep,114323,38.9
+,lieutenant-governor,Fiona Ma,Dem,49785,72.2
+,lieutenant-governor,Gloria Romero,Rep,19175,27.8
+,lieutenant-governor,Fiona Ma,Dem,9520,42.5
+,lieutenant-governor,Gloria Romero,Rep,12857,57.5
+,secretary-of-state,Shirley N. Weber,Dem,8308202,66.5
+,secretary-of-state,Donald P. (Don) Wagner,Rep,4182761,33.5
+,secretary-of-state,Shirley N. Weber,Dem,445039,81.6
+,secretary-of-state,Donald P. (Don) Wagner,Rep,100449,18.4
+,secretary-of-state,Shirley N. Weber,Dem,373,67.9
+,secretary-of-state,Donald P. (Don) Wagner,Rep,176,32.1
+,secretary-of-state,Shirley N. Weber,Dem,6971,37.3
+,secretary-of-state,Donald P. (Don) Wagner,Rep,11740,62.7
+,secretary-of-state,Shirley N. Weber,Dem,37000,51.0
+,secretary-of-state,Donald P. (Don) Wagner,Rep,35567,49.0
+,secretary-of-state,Shirley N. Weber,Dem,7907,37.6
+,secretary-of-state,Donald P. (Don) Wagner,Rep,13146,62.4
+,secretary-of-state,Shirley N. Weber,Dem,2630,45.2
+,secretary-of-state,Donald P. (Don) Wagner,Rep,3194,54.8
+,secretary-of-state,Shirley N. Weber,Dem,306145,72.4
+,secretary-of-state,Donald P. (Don) Wagner,Rep,116633,27.6
+,secretary-of-state,Shirley N. Weber,Dem,3801,46.3
+,secretary-of-state,Donald P. (Don) Wagner,Rep,4400,53.7
+,secretary-of-state,Shirley N. Weber,Dem,41955,44.8
+,secretary-of-state,Donald P. (Don) Wagner,Rep,51611,55.2
+,secretary-of-state,Shirley N. Weber,Dem,127003,56.4
+,secretary-of-state,Donald P. (Don) Wagner,Rep,98117,43.6
+,secretary-of-state,Shirley N. Weber,Dem,3182,37.0
+,secretary-of-state,Donald P. (Don) Wagner,Rep,5429,63.0
+,secretary-of-state,Shirley N. Weber,Dem,30850,68.2
+,secretary-of-state,Donald P. (Don) Wagner,Rep,14352,31.8
+,secretary-of-state,Shirley N. Weber,Dem,23874,65.7
+,secretary-of-state,Donald P. (Don) Wagner,Rep,12491,34.3
+,secretary-of-state,Shirley N. Weber,Dem,3963,53.4
+,secretary-of-state,Donald P. (Don) Wagner,Rep,3452,46.6
+,secretary-of-state,Shirley N. Weber,Dem,119773,51.9
+,secretary-of-state,Donald P. (Don) Wagner,Rep,110909,48.1
+,secretary-of-state,Shirley N. Weber,Dem,16919,49.1
+,secretary-of-state,Donald P. (Don) Wagner,Rep,17539,50.9
+,secretary-of-state,Shirley N. Weber,Dem,8193,56.4
+,secretary-of-state,Donald P. (Don) Wagner,Rep,6326,43.6
+,secretary-of-state,Shirley N. Weber,Dem,2189,24.9
+,secretary-of-state,Donald P. (Don) Wagner,Rep,6604,75.1
+,secretary-of-state,Shirley N. Weber,Dem,2245164,74.4
+,secretary-of-state,Donald P. (Don) Wagner,Rep,772872,25.6
+,secretary-of-state,Shirley N. Weber,Dem,23354,49.6
+,secretary-of-state,Donald P. (Don) Wagner,Rep,23758,50.4
+,secretary-of-state,Shirley N. Weber,Dem,88138,81.2
+,secretary-of-state,Donald P. (Don) Wagner,Rep,20413,18.8
+,secretary-of-state,Shirley N. Weber,Dem,3291,42.0
+,secretary-of-state,Donald P. (Don) Wagner,Rep,4552,58.0
+,secretary-of-state,Shirley N. Weber,Dem,20537,68.2
+,secretary-of-state,Donald P. (Don) Wagner,Rep,9565,31.8
+,secretary-of-state,Shirley N. Weber,Dem,41755,59.7
+,secretary-of-state,Donald P. (Don) Wagner,Rep,28224,40.3
+,secretary-of-state,Shirley N. Weber,Dem,904,28.9
+,secretary-of-state,Donald P. (Don) Wagner,Rep,2226,71.1
+,secretary-of-state,Shirley N. Weber,Dem,3117,62.8
+,secretary-of-state,Donald P. (Don) Wagner,Rep,1843,37.2
+,secretary-of-state,Shirley N. Weber,Dem,88565,71.9
+,secretary-of-state,Donald P. (Don) Wagner,Rep,34659,28.1
+,secretary-of-state,Shirley N. Weber,Dem,31401,70.4
+,secretary-of-state,Donald P. (Don) Wagner,Rep,13204,29.6
+,secretary-of-state,Shirley N. Weber,Dem,25791,57.7
+,secretary-of-state,Donald P. (Don) Wagner,Rep,18909,42.3
+,secretary-of-state,Shirley N. Weber,Dem,624788,55.3
+,secretary-of-state,Donald P. (Don) Wagner,Rep,504039,44.7
+,secretary-of-state,Shirley N. Weber,Dem,76080,48.1
+,secretary-of-state,Donald P. (Don) Wagner,Rep,82240,51.9
+,secretary-of-state,Shirley N. Weber,Dem,3654,43.3
+,secretary-of-state,Donald P. (Don) Wagner,Rep,4782,56.7
+,secretary-of-state,Shirley N. Weber,Dem,390124,59.0
+,secretary-of-state,Donald P. (Don) Wagner,Rep,271632,41.0
+,secretary-of-state,Shirley N. Weber,Dem,325148,65.9
+,secretary-of-state,Donald P. (Don) Wagner,Rep,168411,34.1
+,secretary-of-state,Shirley N. Weber,Dem,10966,63.5
+,secretary-of-state,Donald P. (Don) Wagner,Rep,6314,36.5
+,secretary-of-state,Shirley N. Weber,Dem,369921,60.3
+,secretary-of-state,Donald P. (Don) Wagner,Rep,243374,39.7
+,secretary-of-state,Shirley N. Weber,Dem,753813,63.6
+,secretary-of-state,Donald P. (Don) Wagner,Rep,431448,36.4
+,secretary-of-state,Shirley N. Weber,Dem,285540,87.0
+,secretary-of-state,Donald P. (Don) Wagner,Rep,42795,13.0
+,secretary-of-state,Shirley N. Weber,Dem,126230,59.6
+,secretary-of-state,Donald P. (Don) Wagner,Rep,85597,40.4
+,secretary-of-state,Shirley N. Weber,Dem,60053,57.7
+,secretary-of-state,Donald P. (Don) Wagner,Rep,44026,42.3
+,secretary-of-state,Shirley N. Weber,Dem,208880,77.0
+,secretary-of-state,Donald P. (Don) Wagner,Rep,62468,23.0
+,secretary-of-state,Shirley N. Weber,Dem,103536,67.6
+,secretary-of-state,Donald P. (Don) Wagner,Rep,49625,32.4
+,secretary-of-state,Shirley N. Weber,Dem,435878,72.6
+,secretary-of-state,Donald P. (Don) Wagner,Rep,164829,27.4
+,secretary-of-state,Shirley N. Weber,Dem,90716,80.3
+,secretary-of-state,Donald P. (Don) Wagner,Rep,22279,19.7
+,secretary-of-state,Shirley N. Weber,Dem,20314,34.9
+,secretary-of-state,Donald P. (Don) Wagner,Rep,37893,65.1
+,secretary-of-state,Shirley N. Weber,Dem,594,39.7
+,secretary-of-state,Donald P. (Don) Wagner,Rep,901,60.3
+,secretary-of-state,Shirley N. Weber,Dem,7380,43.1
+,secretary-of-state,Donald P. (Don) Wagner,Rep,9744,56.9
+,secretary-of-state,Shirley N. Weber,Dem,103838,66.8
+,secretary-of-state,Donald P. (Don) Wagner,Rep,51572,33.2
+,secretary-of-state,Shirley N. Weber,Dem,135150,76.1
+,secretary-of-state,Donald P. (Don) Wagner,Rep,42454,23.9
+,secretary-of-state,Shirley N. Weber,Dem,83163,54.2
+,secretary-of-state,Donald P. (Don) Wagner,Rep,70145,45.8
+,secretary-of-state,Shirley N. Weber,Dem,12256,44.5
+,secretary-of-state,Donald P. (Don) Wagner,Rep,15314,55.5
+,secretary-of-state,Shirley N. Weber,Dem,6993,33.0
+,secretary-of-state,Donald P. (Don) Wagner,Rep,14225,67.0
+,secretary-of-state,Shirley N. Weber,Dem,2268,48.6
+,secretary-of-state,Donald P. (Don) Wagner,Rep,2401,51.4
+,secretary-of-state,Shirley N. Weber,Dem,58460,50.9
+,secretary-of-state,Donald P. (Don) Wagner,Rep,56309,49.1
+,secretary-of-state,Shirley N. Weber,Dem,9798,41.8
+,secretary-of-state,Donald P. (Don) Wagner,Rep,13629,58.2
+,secretary-of-state,Shirley N. Weber,Dem,182206,62.1
+,secretary-of-state,Donald P. (Don) Wagner,Rep,111237,37.9
+,secretary-of-state,Shirley N. Weber,Dem,50809,73.6
+,secretary-of-state,Donald P. (Don) Wagner,Rep,18221,26.4
+,secretary-of-state,Shirley N. Weber,Dem,9862,44.1
+,secretary-of-state,Donald P. (Don) Wagner,Rep,12497,55.9
+,controller,Malia M. Cohen,Dem,8140309,65.5
+,controller,Herb W Morgan,Rep,4285699,34.5
+,controller,Malia M. Cohen,Dem,435419,80.2
+,controller,Herb W Morgan,Rep,107827,19.8
+,controller,Malia M. Cohen,Dem,361,65.6
+,controller,Herb W Morgan,Rep,189,34.4
+,controller,Malia M. Cohen,Dem,6939,37.3
+,controller,Herb W Morgan,Rep,11689,62.7
+,controller,Malia M. Cohen,Dem,36307,50.9
+,controller,Herb W Morgan,Rep,35063,49.1
+,controller,Malia M. Cohen,Dem,7812,37.1
+,controller,Herb W Morgan,Rep,13248,62.9
+,controller,Malia M. Cohen,Dem,2572,44.2
+,controller,Herb W Morgan,Rep,3245,55.8
+,controller,Malia M. Cohen,Dem,298807,71.1
+,controller,Herb W Morgan,Rep,121642,28.9
+,controller,Malia M. Cohen,Dem,3707,45.9
+,controller,Herb W Morgan,Rep,4373,54.1
+,controller,Malia M. Cohen,Dem,40748,43.8
+,controller,Herb W Morgan,Rep,52366,56.2
+,controller,Malia M. Cohen,Dem,125135,55.7
+,controller,Herb W Morgan,Rep,99434,44.3
+,controller,Malia M. Cohen,Dem,3159,36.8
+,controller,Herb W Morgan,Rep,5431,63.2
+,controller,Malia M. Cohen,Dem,30668,68.0
+,controller,Herb W Morgan,Rep,14403,32.0
+,controller,Malia M. Cohen,Dem,23731,65.0
+,controller,Herb W Morgan,Rep,12793,35.0
+,controller,Malia M. Cohen,Dem,3869,53.1
+,controller,Herb W Morgan,Rep,3417,46.9
+,controller,Malia M. Cohen,Dem,117457,51.1
+,controller,Herb W Morgan,Rep,112223,48.9
+,controller,Malia M. Cohen,Dem,16814,48.9
+,controller,Herb W Morgan,Rep,17574,51.1
+,controller,Malia M. Cohen,Dem,8098,55.9
+,controller,Herb W Morgan,Rep,6384,44.1
+,controller,Malia M. Cohen,Dem,2215,25.2
+,controller,Herb W Morgan,Rep,6560,74.8
+,controller,Malia M. Cohen,Dem,2199331,73.3
+,controller,Herb W Morgan,Rep,800121,26.7
+,controller,Malia M. Cohen,Dem,23018,48.9
+,controller,Herb W Morgan,Rep,24021,51.1
+,controller,Malia M. Cohen,Dem,84512,78.9
+,controller,Herb W Morgan,Rep,22552,21.1
+,controller,Malia M. Cohen,Dem,3251,41.8
+,controller,Herb W Morgan,Rep,4535,58.2
+,controller,Malia M. Cohen,Dem,20234,67.6
+,controller,Herb W Morgan,Rep,9687,32.4
+,controller,Malia M. Cohen,Dem,41260,59.3
+,controller,Herb W Morgan,Rep,28372,40.7
+,controller,Malia M. Cohen,Dem,913,29.2
+,controller,Herb W Morgan,Rep,2211,70.8
+,controller,Malia M. Cohen,Dem,3059,62.3
+,controller,Herb W Morgan,Rep,1855,37.7
+,controller,Malia M. Cohen,Dem,86953,71.0
+,controller,Herb W Morgan,Rep,35451,29.0
+,controller,Malia M. Cohen,Dem,30680,69.1
+,controller,Herb W Morgan,Rep,13711,30.9
+,controller,Malia M. Cohen,Dem,25397,57.1
+,controller,Herb W Morgan,Rep,19090,42.9
+,controller,Malia M. Cohen,Dem,615681,54.9
+,controller,Herb W Morgan,Rep,505958,45.1
+,controller,Malia M. Cohen,Dem,74477,47.3
+,controller,Herb W Morgan,Rep,83113,52.7
+,controller,Malia M. Cohen,Dem,3606,43.4
+,controller,Herb W Morgan,Rep,4706,56.6
+,controller,Malia M. Cohen,Dem,385734,58.5
+,controller,Herb W Morgan,Rep,273858,41.5
+,controller,Malia M. Cohen,Dem,318600,64.8
+,controller,Herb W Morgan,Rep,173127,35.2
+,controller,Malia M. Cohen,Dem,10745,62.5
+,controller,Herb W Morgan,Rep,6442,37.5
+,controller,Malia M. Cohen,Dem,364953,59.7
+,controller,Herb W Morgan,Rep,246093,40.3
+,controller,Malia M. Cohen,Dem,731784,62.1
+,controller,Herb W Morgan,Rep,447265,37.9
+,controller,Malia M. Cohen,Dem,276429,85.2
+,controller,Herb W Morgan,Rep,47978,14.8
+,controller,Malia M. Cohen,Dem,124059,58.8
+,controller,Herb W Morgan,Rep,86783,41.2
+,controller,Malia M. Cohen,Dem,58998,56.8
+,controller,Herb W Morgan,Rep,44962,43.2
+,controller,Malia M. Cohen,Dem,202888,75.3
+,controller,Herb W Morgan,Rep,66465,24.7
+,controller,Malia M. Cohen,Dem,101347,66.7
+,controller,Herb W Morgan,Rep,50558,33.3
+,controller,Malia M. Cohen,Dem,427100,71.3
+,controller,Herb W Morgan,Rep,171980,28.7
+,controller,Malia M. Cohen,Dem,88073,79.1
+,controller,Herb W Morgan,Rep,23285,20.9
+,controller,Malia M. Cohen,Dem,20244,34.9
+,controller,Herb W Morgan,Rep,37781,65.1
+,controller,Malia M. Cohen,Dem,603,40.5
+,controller,Herb W Morgan,Rep,886,59.5
+,controller,Malia M. Cohen,Dem,7370,43.2
+,controller,Herb W Morgan,Rep,9699,56.8
+,controller,Malia M. Cohen,Dem,102709,66.3
+,controller,Herb W Morgan,Rep,52243,33.7
+,controller,Malia M. Cohen,Dem,133054,75.1
+,controller,Herb W Morgan,Rep,44139,24.9
+,controller,Malia M. Cohen,Dem,81275,53.4
+,controller,Herb W Morgan,Rep,70878,46.6
+,controller,Malia M. Cohen,Dem,12079,44.2
+,controller,Herb W Morgan,Rep,15278,55.8
+,controller,Malia M. Cohen,Dem,6968,33.1
+,controller,Herb W Morgan,Rep,14097,66.9
+,controller,Malia M. Cohen,Dem,2250,48.3
+,controller,Herb W Morgan,Rep,2412,51.7
+,controller,Malia M. Cohen,Dem,58198,50.6
+,controller,Herb W Morgan,Rep,56920,49.4
+,controller,Malia M. Cohen,Dem,9635,41.3
+,controller,Herb W Morgan,Rep,13702,58.7
+,controller,Malia M. Cohen,Dem,179839,61.2
+,controller,Herb W Morgan,Rep,113898,38.8
+,controller,Malia M. Cohen,Dem,49415,72.0
+,controller,Herb W Morgan,Rep,19203,28.0
+,controller,Malia M. Cohen,Dem,9770,43.8
+,controller,Herb W Morgan,Rep,12523,56.2
+,treasurer,Eleni Kounalakis,Dem,8156196,65.7
+,treasurer,Jennifer Hawks,Rep,4264063,34.3
+,treasurer,Eleni Kounalakis,Dem,436195,80.7
+,treasurer,Jennifer Hawks,Rep,104027,19.3
+,treasurer,Eleni Kounalakis,Dem,354,65.0
+,treasurer,Jennifer Hawks,Rep,191,35.0
+,treasurer,Eleni Kounalakis,Dem,6706,36.1
+,treasurer,Jennifer Hawks,Rep,11875,63.9
+,treasurer,Eleni Kounalakis,Dem,35827,49.8
+,treasurer,Jennifer Hawks,Rep,36086,50.2
+,treasurer,Eleni Kounalakis,Dem,7669,36.4
+,treasurer,Jennifer Hawks,Rep,13421,63.6
+,treasurer,Eleni Kounalakis,Dem,2525,43.3
+,treasurer,Jennifer Hawks,Rep,3300,56.7
+,treasurer,Eleni Kounalakis,Dem,301997,71.6
+,treasurer,Jennifer Hawks,Rep,119869,28.4
+,treasurer,Eleni Kounalakis,Dem,3685,45.2
+,treasurer,Jennifer Hawks,Rep,4463,54.8
+,treasurer,Eleni Kounalakis,Dem,40560,43.6
+,treasurer,Jennifer Hawks,Rep,52508,56.4
+,treasurer,Eleni Kounalakis,Dem,124513,55.4
+,treasurer,Jennifer Hawks,Rep,100221,44.6
+,treasurer,Eleni Kounalakis,Dem,3071,35.7
+,treasurer,Jennifer Hawks,Rep,5535,64.3
+,treasurer,Eleni Kounalakis,Dem,30267,67.2
+,treasurer,Jennifer Hawks,Rep,14790,32.8
+,treasurer,Eleni Kounalakis,Dem,23307,63.7
+,treasurer,Jennifer Hawks,Rep,13262,36.3
+,treasurer,Eleni Kounalakis,Dem,3836,52.4
+,treasurer,Jennifer Hawks,Rep,3487,47.6
+,treasurer,Eleni Kounalakis,Dem,116888,50.9
+,treasurer,Jennifer Hawks,Rep,112769,49.1
+,treasurer,Eleni Kounalakis,Dem,16504,48.0
+,treasurer,Jennifer Hawks,Rep,17894,52.0
+,treasurer,Eleni Kounalakis,Dem,7983,55.3
+,treasurer,Jennifer Hawks,Rep,6454,44.7
+,treasurer,Eleni Kounalakis,Dem,2100,23.9
+,treasurer,Jennifer Hawks,Rep,6673,76.1
+,treasurer,Eleni Kounalakis,Dem,2206437,73.6
+,treasurer,Jennifer Hawks,Rep,790788,26.4
+,treasurer,Eleni Kounalakis,Dem,22834,48.5
+,treasurer,Jennifer Hawks,Rep,24222,51.5
+,treasurer,Eleni Kounalakis,Dem,86853,80.6
+,treasurer,Jennifer Hawks,Rep,20857,19.4
+,treasurer,Eleni Kounalakis,Dem,3221,41.4
+,treasurer,Jennifer Hawks,Rep,4563,58.6
+,treasurer,Eleni Kounalakis,Dem,20054,67.1
+,treasurer,Jennifer Hawks,Rep,9855,32.9
+,treasurer,Eleni Kounalakis,Dem,41004,58.5
+,treasurer,Jennifer Hawks,Rep,29084,41.5
+,treasurer,Eleni Kounalakis,Dem,850,27.3
+,treasurer,Jennifer Hawks,Rep,2261,72.7
+,treasurer,Eleni Kounalakis,Dem,3010,61.8
+,treasurer,Jennifer Hawks,Rep,1864,38.2
+,treasurer,Eleni Kounalakis,Dem,87257,71.0
+,treasurer,Jennifer Hawks,Rep,35559,29.0
+,treasurer,Eleni Kounalakis,Dem,30915,69.7
+,treasurer,Jennifer Hawks,Rep,13442,30.3
+,treasurer,Eleni Kounalakis,Dem,25214,56.7
+,treasurer,Jennifer Hawks,Rep,19266,43.3
+,treasurer,Eleni Kounalakis,Dem,620227,55.3
+,treasurer,Jennifer Hawks,Rep,500821,44.7
+,treasurer,Eleni Kounalakis,Dem,72968,47.1
+,treasurer,Jennifer Hawks,Rep,81861,52.9
+,treasurer,Eleni Kounalakis,Dem,3504,41.9
+,treasurer,Jennifer Hawks,Rep,4856,58.1
+,treasurer,Eleni Kounalakis,Dem,383853,58.2
+,treasurer,Jennifer Hawks,Rep,275233,41.8
+,treasurer,Eleni Kounalakis,Dem,316555,64.6
+,treasurer,Jennifer Hawks,Rep,173521,35.4
+,treasurer,Eleni Kounalakis,Dem,10713,62.1
+,treasurer,Jennifer Hawks,Rep,6536,37.9
+,treasurer,Eleni Kounalakis,Dem,363867,59.5
+,treasurer,Jennifer Hawks,Rep,247273,40.5
+,treasurer,Eleni Kounalakis,Dem,738752,62.5
+,treasurer,Jennifer Hawks,Rep,442310,37.5
+,treasurer,Eleni Kounalakis,Dem,277436,85.8
+,treasurer,Jennifer Hawks,Rep,45776,14.2
+,treasurer,Eleni Kounalakis,Dem,123800,58.5
+,treasurer,Jennifer Hawks,Rep,87722,41.5
+,treasurer,Eleni Kounalakis,Dem,59268,57.0
+,treasurer,Jennifer Hawks,Rep,44782,43.0
+,treasurer,Eleni Kounalakis,Dem,205204,76.0
+,treasurer,Jennifer Hawks,Rep,64669,24.0
+,treasurer,Eleni Kounalakis,Dem,101842,66.7
+,treasurer,Jennifer Hawks,Rep,50735,33.3
+,treasurer,Eleni Kounalakis,Dem,428238,71.6
+,treasurer,Jennifer Hawks,Rep,170262,28.4
+,treasurer,Eleni Kounalakis,Dem,89017,79.5
+,treasurer,Jennifer Hawks,Rep,23020,20.5
+,treasurer,Eleni Kounalakis,Dem,19517,33.7
+,treasurer,Jennifer Hawks,Rep,38440,66.3
+,treasurer,Eleni Kounalakis,Dem,580,38.8
+,treasurer,Jennifer Hawks,Rep,916,61.2
+,treasurer,Eleni Kounalakis,Dem,7133,41.7
+,treasurer,Jennifer Hawks,Rep,9988,58.3
+,treasurer,Eleni Kounalakis,Dem,101867,65.8
+,treasurer,Jennifer Hawks,Rep,52862,34.2
+,treasurer,Eleni Kounalakis,Dem,133014,75.3
+,treasurer,Jennifer Hawks,Rep,43686,24.7
+,treasurer,Eleni Kounalakis,Dem,81107,53.3
+,treasurer,Jennifer Hawks,Rep,71039,46.7
+,treasurer,Eleni Kounalakis,Dem,11865,43.4
+,treasurer,Jennifer Hawks,Rep,15472,56.6
+,treasurer,Eleni Kounalakis,Dem,6687,31.8
+,treasurer,Jennifer Hawks,Rep,14321,68.2
+,treasurer,Eleni Kounalakis,Dem,2192,47.3
+,treasurer,Jennifer Hawks,Rep,2441,52.7
+,treasurer,Eleni Kounalakis,Dem,57269,49.9
+,treasurer,Jennifer Hawks,Rep,57461,50.1
+,treasurer,Eleni Kounalakis,Dem,9527,40.8
+,treasurer,Jennifer Hawks,Rep,13833,59.2
+,treasurer,Eleni Kounalakis,Dem,179325,61.1
+,treasurer,Jennifer Hawks,Rep,114107,38.9
+,treasurer,Eleni Kounalakis,Dem,49671,72.5
+,treasurer,Jennifer Hawks,Rep,18840,27.5
+,treasurer,Eleni Kounalakis,Dem,9562,43.0
+,treasurer,Jennifer Hawks,Rep,12694,57.0
+,attorney-general,Rob Bonta,Dem,8168019,65.5
+,attorney-general,Michael E. Gates,Rep,4311238,34.5
+,attorney-general,Rob Bonta,Dem,438116,80.4
+,attorney-general,Michael E. Gates,Rep,106486,19.6
+,attorney-general,Rob Bonta,Dem,355,64.5
+,attorney-general,Michael E. Gates,Rep,195,35.5
+,attorney-general,Rob Bonta,Dem,6728,36.0
+,attorney-general,Michael E. Gates,Rep,11966,64.0
+,attorney-general,Rob Bonta,Dem,35700,49.5
+,attorney-general,Michael E. Gates,Rep,36373,50.5
+,attorney-general,Rob Bonta,Dem,7634,36.1
+,attorney-general,Michael E. Gates,Rep,13504,63.9
+,attorney-general,Rob Bonta,Dem,2524,43.1
+,attorney-general,Michael E. Gates,Rep,3331,56.9
+,attorney-general,Rob Bonta,Dem,300403,71.1
+,attorney-general,Michael E. Gates,Rep,122137,28.9
+,attorney-general,Rob Bonta,Dem,3647,44.7
+,attorney-general,Michael E. Gates,Rep,4511,55.3
+,attorney-general,Rob Bonta,Dem,40525,43.3
+,attorney-general,Michael E. Gates,Rep,52997,56.7
+,attorney-general,Rob Bonta,Dem,124018,55.0
+,attorney-general,Michael E. Gates,Rep,101334,45.0
+,attorney-general,Rob Bonta,Dem,3052,35.4
+,attorney-general,Michael E. Gates,Rep,5566,64.6
+,attorney-general,Rob Bonta,Dem,30255,67.1
+,attorney-general,Michael E. Gates,Rep,14842,32.9
+,attorney-general,Rob Bonta,Dem,23249,63.5
+,attorney-general,Michael E. Gates,Rep,13378,36.5
+,attorney-general,Rob Bonta,Dem,3862,52.4
+,attorney-general,Michael E. Gates,Rep,3508,47.6
+,attorney-general,Rob Bonta,Dem,116078,50.4
+,attorney-general,Michael E. Gates,Rep,114121,49.6
+,attorney-general,Rob Bonta,Dem,16440,47.8
+,attorney-general,Michael E. Gates,Rep,17985,52.2
+,attorney-general,Rob Bonta,Dem,7980,55.0
+,attorney-general,Michael E. Gates,Rep,6516,45.0
+,attorney-general,Rob Bonta,Dem,2069,23.5
+,attorney-general,Michael E. Gates,Rep,6730,76.5
+,attorney-general,Rob Bonta,Dem,2212982,73.5
+,attorney-general,Michael E. Gates,Rep,798564,26.5
+,attorney-general,Rob Bonta,Dem,22588,47.9
+,attorney-general,Michael E. Gates,Rep,24562,52.1
+,attorney-general,Rob Bonta,Dem,86795,80.2
+,attorney-general,Michael E. Gates,Rep,21397,19.8
+,attorney-general,Rob Bonta,Dem,3198,41.0
+,attorney-general,Michael E. Gates,Rep,4601,59.0
+,attorney-general,Rob Bonta,Dem,20074,66.9
+,attorney-general,Michael E. Gates,Rep,9936,33.1
+,attorney-general,Rob Bonta,Dem,40557,58.1
+,attorney-general,Michael E. Gates,Rep,29249,41.9
+,attorney-general,Rob Bonta,Dem,844,27.0
+,attorney-general,Michael E. Gates,Rep,2282,73.0
+,attorney-general,Rob Bonta,Dem,3014,61.5
+,attorney-general,Michael E. Gates,Rep,1888,38.5
+,attorney-general,Rob Bonta,Dem,86691,70.5
+,attorney-general,Michael E. Gates,Rep,36359,29.5
+,attorney-general,Rob Bonta,Dem,30592,69.1
+,attorney-general,Michael E. Gates,Rep,13668,30.9
+,attorney-general,Rob Bonta,Dem,25422,56.7
+,attorney-general,Michael E. Gates,Rep,19382,43.3
+,attorney-general,Rob Bonta,Dem,620835,55.1
+,attorney-general,Michael E. Gates,Rep,505404,44.9
+,attorney-general,Rob Bonta,Dem,73647,47.0
+,attorney-general,Michael E. Gates,Rep,83132,53.0
+,attorney-general,Rob Bonta,Dem,3528,42.1
+,attorney-general,Michael E. Gates,Rep,4843,57.9
+,attorney-general,Rob Bonta,Dem,383491,58.0
+,attorney-general,Michael E. Gates,Rep,277775,42.0
+,attorney-general,Rob Bonta,Dem,320191,64.6
+,attorney-general,Michael E. Gates,Rep,175315,35.4
+,attorney-general,Rob Bonta,Dem,10603,61.5
+,attorney-general,Michael E. Gates,Rep,6632,38.5
+,attorney-general,Rob Bonta,Dem,362746,59.2
+,attorney-general,Michael E. Gates,Rep,250293,40.8
+,attorney-general,Rob Bonta,Dem,736463,62.3
+,attorney-general,Michael E. Gates,Rep,446596,37.7
+,attorney-general,Rob Bonta,Dem,283514,85.6
+,attorney-general,Michael E. Gates,Rep,47658,14.4
+,attorney-general,Rob Bonta,Dem,122849,58.0
+,attorney-general,Michael E. Gates,Rep,88988,42.0
+,attorney-general,Rob Bonta,Dem,58916,56.6
+,attorney-general,Michael E. Gates,Rep,45262,43.4
+,attorney-general,Rob Bonta,Dem,206152,76.0
+,attorney-general,Michael E. Gates,Rep,65062,24.0
+,attorney-general,Rob Bonta,Dem,101702,66.6
+,attorney-general,Michael E. Gates,Rep,51079,33.4
+,attorney-general,Rob Bonta,Dem,430077,71.5
+,attorney-general,Michael E. Gates,Rep,171495,28.5
+,attorney-general,Rob Bonta,Dem,88828,79.1
+,attorney-general,Michael E. Gates,Rep,23452,20.9
+,attorney-general,Rob Bonta,Dem,19909,34.0
+,attorney-general,Michael E. Gates,Rep,38634,66.0
+,attorney-general,Rob Bonta,Dem,583,38.7
+,attorney-general,Michael E. Gates,Rep,925,61.3
+,attorney-general,Rob Bonta,Dem,7099,41.4
+,attorney-general,Michael E. Gates,Rep,10039,58.6
+,attorney-general,Rob Bonta,Dem,102153,65.7
+,attorney-general,Michael E. Gates,Rep,53357,34.3
+,attorney-general,Rob Bonta,Dem,133142,75.0
+,attorney-general,Michael E. Gates,Rep,44499,25.0
+,attorney-general,Rob Bonta,Dem,80713,52.8
+,attorney-general,Michael E. Gates,Rep,72085,47.2
+,attorney-general,Rob Bonta,Dem,11872,43.2
+,attorney-general,Michael E. Gates,Rep,15613,56.8
+,attorney-general,Rob Bonta,Dem,6723,31.9
+,attorney-general,Michael E. Gates,Rep,14351,68.1
+,attorney-general,Rob Bonta,Dem,2198,47.1
+,attorney-general,Michael E. Gates,Rep,2465,52.9
+,attorney-general,Rob Bonta,Dem,57197,49.7
+,attorney-general,Michael E. Gates,Rep,57918,50.3
+,attorney-general,Rob Bonta,Dem,9482,40.5
+,attorney-general,Michael E. Gates,Rep,13948,59.5
+,attorney-general,Rob Bonta,Dem,178738,60.8
+,attorney-general,Michael E. Gates,Rep,115183,39.2
+,attorney-general,Rob Bonta,Dem,49733,72.2
+,attorney-general,Michael E. Gates,Rep,19150,27.8
+,attorney-general,Rob Bonta,Dem,9543,42.9
+,attorney-general,Michael E. Gates,Rep,12717,57.1
