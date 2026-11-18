@@ -7,8 +7,34 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: georgia.qmd
-        text: Georgia
+      - text: State
+        menu:
+          - text: Alaska
+            href: states/alaska.qmd
+          - text: Arizona
+            href: states/arizona.qmd
+          - text: California
+            href: states/california.qmd
+          - text: Georgia
+            href: states/georgia.qmd
+          - text: Idaho
+            href: states/idaho.qmd
+          - text: Louisiana
+            href: states/louisiana.qmd
+          - text: Maryland
+            href: states/maryland.qmd
+          - text: Minnesota
+            href: states/minnesota.qmd
+          - text: North Carolina
+            href: states/north-carolina.qmd
+          - text: Rhode Island
+            href: states/rhode-island.qmd
+          - text: Utah
+            href: states/utah.qmd
+          - text: Virginia
+            href: states/virginia.qmd
+          - text: Washington
+            href: states/washington.qmd
       - about.qmd
 
 format:
@@ -18,6 +44,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-

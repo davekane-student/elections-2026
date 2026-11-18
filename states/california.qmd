@@ -1,0 +1,12 @@
+---
+title: "California — 2026 Election Results"
+subtitle: "Interactive Election Map"
+page-layout: full
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+Interactive election map for **California** coming next.
+

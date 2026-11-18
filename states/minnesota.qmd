@@ -1,0 +1,133 @@
+---
+title: "Minnesota — 2026 U.S. Senate"
+subtitle: "Interactive Precinct-Level Election Results"
+page-layout: full
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+Hover over any precinct to inspect vote totals for **Peggy Flanagan (DFL)** and **Michele Tafoya (R)**, or use the top-right toggle to switch between **Vote Margin** and **Total Votes Cast**.
+
+```{r}
+library(tidyverse)
+library(sf)
+library(mapgl)
+
+# Read Minnesota semicolon-delimited precinct results for U.S. Senator
+mn_pct <- read_delim("../data/minnesota/MN-data.txt", delim = ";", col_names = FALSE, show_col_types = FALSE) |>
+  mutate(
+    county_code = as.character(as.integer(X2)),
+    pct_code = X3,
+    candidate = X8,
+    votes = as.numeric(X14)
+  ) |>
+  summarise(
+    total_votes = sum(votes),
+    flanagan_votes = sum(votes[candidate == "Peggy Flanagan"]),
+    tafoya_votes = sum(votes[candidate == "Michele Tafoya"]),
+    other_votes = sum(votes[!candidate %in% c("Peggy Flanagan", "Michele Tafoya")]),
+    .by = c(county_code, pct_code)
+  ) |>
+  mutate(
+    flanagan_pct = if_else(total_votes > 0, round(100 * flanagan_votes / total_votes, 1), NA_real_),
+    tafoya_pct = if_else(total_votes > 0, round(100 * tafoya_votes / total_votes, 1), NA_real_),
+    dfl_margin = if_else(total_votes > 0, round(100 * (flanagan_votes - tafoya_votes) / total_votes, 1), NA_real_),
+    margin_label = case_when(
+      is.na(dfl_margin) ~ "No votes reported",
+      dfl_margin > 0 ~ paste0("Flanagan +", dfl_margin, "%"),
+      dfl_margin < 0 ~ paste0("Tafoya +", abs(dfl_margin), "%"),
+      TRUE ~ "Tied (0.0%)"
+    )
+  )
+
+# Read, simplify, and reproject Minnesota voting precinct polygons to WGS84
+mn_sf <- st_read(
+  "../data/minnesota/precincts/bdry_votingdistricts/shp/bdry_votingdistricts.shp",
+  quiet = TRUE
+) |>
+  select(PCTNAME, PCTCODE, COUNTYNAME, COUNTYCODE) |>
+  st_simplify(dTolerance = 100, preserveTopology = TRUE) |>
+  st_transform(4326) |>
+  left_join(mn_pct, by = c("COUNTYCODE" = "county_code", "PCTCODE" = "pct_code")) |>
+  mutate(
+    hover_tip = paste0(
+      "<strong>", PCTNAME, "</strong> (", COUNTYNAME, " County)<br>",
+      "Margin: <strong>", coalesce(margin_label, "No votes"), "</strong><br>",
+      "Peggy Flanagan (DFL): ", coalesce(as.character(flanagan_pct), "0"), "% (", scales::comma(coalesce(flanagan_votes, 0)), ")<br>",
+      "Michele Tafoya (R): ", coalesce(as.character(tafoya_pct), "0"), "% (", scales::comma(coalesce(tafoya_votes, 0)), ")<br>",
+      "Third-Party / Write-In: ", scales::comma(coalesce(other_votes, 0)), "<br>",
+      "Total Precinct Votes: ", scales::comma(coalesce(total_votes, 0))
+    )
+  )
+
+# Diverging red-white-blue scale for Flanagan vs. Tafoya margin
+mn_margin_pal <- interpolate_palette(
+  data = mn_sf,
+  column = "dfl_margin",
+  data_values = c(-60, -30, 0, 30, 60),
+  colors = c("#b2182b", "#ef8a62", "#f7f7f7", "#67a9cf", "#2166ac"),
+  na_color = "#d9d9d9"
+)
+
+# Sequential purple scale for Minnesota precinct vote volume
+mn_volume_pal <- interpolate_palette(
+  data = mn_sf,
+  column = "total_votes",
+  data_values = c(100, 350, 900, 1800, 3000),
+  colors = c("#edf8fb", "#b3cde3", "#8c96c6", "#8856a7", "#4d004b"),
+  na_color = "#d9d9d9"
+)
+
+# Build interactive MapLibre precinct map for Minnesota
+maplibre(
+  style = carto_style("positron"),
+  bounds = mn_sf,
+  height = "680px"
+) |>
+  add_source(id = "mn_precincts", data = mn_sf) |>
+  add_fill_layer(
+    id = "Vote Margin (DFL - R)",
+    source = "mn_precincts",
+    fill_color = mn_margin_pal$expression,
+    fill_opacity = 0.84,
+    fill_outline_color = "rgba(255, 255, 255, 0.25)",
+    tooltip = "hover_tip",
+    hover_options = list(fill_opacity = 1, fill_outline_color = "#111111")
+  ) |>
+  add_fill_layer(
+    id = "Total Votes Cast",
+    source = "mn_precincts",
+    visibility = "none",
+    fill_color = mn_volume_pal$expression,
+    fill_opacity = 0.84,
+    fill_outline_color = "rgba(255, 255, 255, 0.25)",
+    tooltip = "hover_tip",
+    hover_options = list(fill_opacity = 1, fill_outline_color = "#111111")
+  ) |>
+  add_legend(
+    legend_title = "U.S. Senate Margin",
+    values = c("Tafoya +60%", "Tafoya +30%", "Even", "Flanagan +30%", "Flanagan +60%"),
+    colors = mn_margin_pal$colors,
+    type = "continuous",
+    position = "bottom-left",
+    layer_id = "Vote Margin (DFL - R)",
+    add = TRUE
+  ) |>
+  add_legend(
+    legend_title = "Total Precinct Votes",
+    values = c("100", "350", "900", "1,800", "3,000+"),
+    colors = mn_volume_pal$colors,
+    type = "continuous",
+    position = "bottom-left",
+    layer_id = "Total Votes Cast",
+    add = TRUE
+  ) |>
+  add_layers_control(
+    position = "top-right",
+    layers = c("Vote Margin (DFL - R)", "Total Votes Cast"),
+    collapsible = FALSE,
+    mode = "single"
+  )
+```
