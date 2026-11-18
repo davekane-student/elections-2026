@@ -1,0 +1,126 @@
+---
+title: "Georgia 2026 Election Results"
+subtitle: "Interactive County-Level Map of the U.S. Senate Race"
+page-layout: full
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+Explore county-by-county results from the November 3, 2026 general election in Georgia.
+
+## Georgia — U.S. Senate
+
+Hover over any county to inspect vote totals for **Jon Ossoff (DEM)** and **Mike Collins (REP)**, or use the top-right toggle to switch between **Vote Margin** and **Total Votes Cast**.
+
+```{r}
+library(tidyverse)
+library(sf)
+library(mapgl)
+library(tigris)
+
+# Read Georgia locality-level results for U.S. Senate
+senate_counties <- read_csv("data/georgia/results_locality_20261103.csv", show_col_types = FALSE) |>
+  filter(contest == "US Senate") |>
+  summarise(
+    total_votes = sum(votes),
+    ossoff_votes = sum(votes[party == "Dem"]),
+    collins_votes = sum(votes[party == "Rep"]),
+    .by = locality
+  ) |>
+  mutate(
+    ossoff_pct = round(100 * ossoff_votes / total_votes, 1),
+    collins_pct = round(100 * collins_votes / total_votes, 1),
+    dem_margin = round(100 * (ossoff_votes - collins_votes) / total_votes, 1),
+    margin_label = case_when(
+      is.na(dem_margin) ~ "No votes reported",
+      dem_margin > 0 ~ paste0("Ossoff +", dem_margin, "%"),
+      dem_margin < 0 ~ paste0("Collins +", abs(dem_margin), "%"),
+      TRUE ~ "Tied (0.0%)"
+    )
+  )
+
+# Fetch Georgia county boundaries, reproject to WGS84, and join election data
+counties_sf <- tigris::counties(state = "GA", cb = TRUE, year = 2020) |>
+  st_transform(4326) |>
+  left_join(senate_counties, by = c("NAMELSAD" = "locality")) |>
+  mutate(
+    hover_tip = paste0(
+      "<strong>", NAMELSAD, "</strong><br>",
+      "Margin: <strong>", coalesce(margin_label, "No votes"), "</strong><br>",
+      "Jon Ossoff (DEM): ", coalesce(as.character(ossoff_pct), "0"), "% (", scales::comma(coalesce(ossoff_votes, 0)), ")<br>",
+      "Mike Collins (REP): ", coalesce(as.character(collins_pct), "0"), "% (", scales::comma(coalesce(collins_votes, 0)), ")<br>",
+      "Total County Votes: ", scales::comma(coalesce(total_votes, 0))
+    )
+  )
+
+# Diverging red-white-blue scale for Ossoff vs. Collins margin
+margin_pal <- interpolate_palette(
+  data = counties_sf,
+  column = "dem_margin",
+  data_values = c(-60, -30, 0, 30, 60),
+  colors = c("#b2182b", "#ef8a62", "#f7f7f7", "#67a9cf", "#2166ac"),
+  na_color = "#d9d9d9"
+)
+
+# Sequential purple scale for county vote volume
+volume_pal <- interpolate_palette(
+  data = counties_sf,
+  column = "total_votes",
+  data_values = c(2000, 10000, 30000, 100000, 300000),
+  colors = c("#edf8fb", "#b3cde3", "#8c96c6", "#8856a7", "#4d004b"),
+  na_color = "#d9d9d9"
+)
+
+# Build interactive MapLibre county map
+maplibre(
+  style = carto_style("positron"),
+  bounds = counties_sf,
+  height = "680px"
+) |>
+  add_source(id = "ga_counties", data = counties_sf) |>
+  add_fill_layer(
+    id = "Vote Margin (DEM - REP)",
+    source = "ga_counties",
+    fill_color = margin_pal$expression,
+    fill_opacity = 0.84,
+    fill_outline_color = "rgba(255, 255, 255, 0.25)",
+    tooltip = "hover_tip",
+    hover_options = list(fill_opacity = 1, fill_outline_color = "#111111")
+  ) |>
+  add_fill_layer(
+    id = "Total Votes Cast",
+    source = "ga_counties",
+    visibility = "none",
+    fill_color = volume_pal$expression,
+    fill_opacity = 0.84,
+    fill_outline_color = "rgba(255, 255, 255, 0.25)",
+    tooltip = "hover_tip",
+    hover_options = list(fill_opacity = 1, fill_outline_color = "#111111")
+  ) |>
+  add_legend(
+    legend_title = "U.S. Senate Margin",
+    values = c("Collins +60%", "Collins +30%", "Even", "Ossoff +30%", "Ossoff +60%"),
+    colors = margin_pal$colors,
+    type = "continuous",
+    position = "bottom-left",
+    layer_id = "Vote Margin (DEM - REP)",
+    add = TRUE
+  ) |>
+  add_legend(
+    legend_title = "Total County Votes",
+    values = c("2,000", "10,000", "30,000", "100,000", "300,000+"),
+    colors = volume_pal$colors,
+    type = "continuous",
+    position = "bottom-left",
+    layer_id = "Total Votes Cast",
+    add = TRUE
+  ) |>
+  add_layers_control(
+    position = "top-right",
+    layers = c("Vote Margin (DEM - REP)", "Total Votes Cast"),
+    collapsible = FALSE,
+    mode = "single"
+  )
+```
